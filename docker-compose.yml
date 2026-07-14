@@ -19,6 +19,7 @@ services:
 
   backend:
     image: interviewmarketnode.azurecr.io/qa-bond-issuance-backend:0.0.1
+    platform: linux/arm64
     environment:
       SPRING_DATASOURCE_URL: jdbc:postgresql://postgres:5432/bis
       SPRING_DATASOURCE_USERNAME: app
@@ -37,6 +38,7 @@ services:
 
   frontend:
     image: interviewmarketnode.azurecr.io/qa-bond-issuance-frontend:0.0.1
+    platform: linux/arm64
     ports:
       - "5173:80"
     depends_on:
