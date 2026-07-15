@@ -1,0 +1,30 @@
+# Node
+node_modules/
+dist/
+
+# Java
+backend/target/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Test output
+test-results/
+playwright-report/
+allure-results/
+allure-report/
+reports/
+
+# Generated test CSVs
+test-data/generated/
+
+# Env
+.env
+
+# OS
+.DS_Store
+Thumbs.db
+.venv-xlsx/

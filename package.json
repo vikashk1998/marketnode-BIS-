@@ -1,0 +1,27 @@
+{
+  "name": "bis-automation-framework",
+  "version": "1.0.0",
+  "description": "Enterprise Playwright automation framework for the Bond Issuance System",
+  "private": true,
+  "scripts": {
+    "test": "playwright test",
+    "test:smoke": "playwright test --grep @smoke",
+    "test:api": "playwright test tests/api",
+    "test:ui": "playwright test tests/ui",
+    "test:e2e": "playwright test tests/e2e",
+    "test:financial": "playwright test tests/financial",
+    "test:negative": "playwright test tests/negative",
+    "report": "playwright show-report reports/html",
+    "lint": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.52.0",
+    "@types/node": "^22.15.0",
+    "decimal.js": "^10.5.0",
+    "ssh2-sftp-client": "^12.0.0",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "@types/ssh2-sftp-client": "^9.0.4"
+  }
+}

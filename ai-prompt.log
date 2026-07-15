@@ -1,0 +1,23 @@
+---
+timestamp: 2026-07-14T15:30:00Z
+model: Composer (Cursor Auto)
+prompt: |
+  Expert Prompt — Build an Enterprise-Grade Playwright Automation Framework
+  for the Bond Issuance System covering PRODUCT.md and TASKS.md with three-layer
+  POM, fixtures, API clients, builders, financial validation, SFTP/CSV support,
+  documentation (README, Architecture, test-plan, test-cases, defects),
+  run-tests.sh, and ai-prompt.log.
+---
+timestamp: 2026-07-14T15:31:00Z
+model: Composer (Cursor Auto)
+prompt: |
+  hi
+---
+timestamp: 2026-07-14T16:02:00Z
+model: Composer (Cursor Auto)
+prompt: |
+  Continue building/fixing the enterprise Playwright framework: three-layer POM,
+  SFTP workflows, financial assertions, full test suite execution, defect logging
+  for PRODUCT.md deviations (available_size, allocation floor, validation gaps,
+  concurrency oversell, weekend coupons, PENDING-until-advance lifecycle).
+---
