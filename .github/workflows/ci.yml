@@ -30,7 +30,7 @@ jobs:
     # App images in ACR are linux/arm64 only (not multi-arch).
     # ubuntu-latest is x64 and fails with "exec format error".
     runs-on: ubuntu-24.04-arm
-    timeout-minutes: 60
+    timeout-minutes: 120
 
     steps:
       - name: Checkout
